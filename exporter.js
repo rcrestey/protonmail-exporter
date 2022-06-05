@@ -12,11 +12,11 @@ const protonExport = async () =>
 
 		const download = async () => {
 			//click on more button
-			document.getElementsByClassName("button button-for-icon button-group-item button-ghost-weak")[5].click();
+			document.getElementsByClassName("button button-for-icon button-group-item button-outline-weak")[5].click();
 
 			//click on export
-			document.getElementsByClassName("flex-item-fluid mtauto mbauto")[4].click();
-			document.getElementsByClassName("button button-for-icon button-group-item button-ghost-weak")[5].click();
+			document.getElementsByClassName("flex-item-fluid mtauto mbauto")[3].click();
+			document.getElementsByClassName("button button-for-icon button-group-item button-outline-weak")[5].click();
 		}
 		await download();
 		await sleepNow(1000);
